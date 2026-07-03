@@ -1,0 +1,284 @@
+/* ----index-part---- */
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background-color:#F0F8FF;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:black;
+    padding:10px 20px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.logo img{
+    width:70px;
+    border-radius: 15px ;
+
+
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:rgb(6, 182, 235);
+    text-decoration: underline;
+}
+.bg{
+    background-color: lightblue;
+}
+.h1{
+    text-align: center;
+    margin: 10px;
+    color: chocolate;
+}
+.h2{
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.index-p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.div{
+    display: flex;
+    margin: 10px;
+}
+.find-us{
+    background-color: lightseagreen;
+    color:white;
+    padding:15px 40px;
+    border-radius:30px;
+    font-size:18px;
+    transition:0.3s;
+    margin-left: 400px;
+}
+
+.find-us:hover{
+    background:#a34304;
+    
+}
+.about-more{
+    background-color: lightseagreen;
+    color:white;
+    padding:15px 50px;
+    border-radius:30px;
+    font-size:18px;
+    transition:0.3s;
+    margin-left: 100px;
+}
+.about-more:hover{
+background-color:#a34304; ;
+}
+
+ /* ------gellery-part------ */
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+
+  
+}
+.images{
+    width: 400px;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    background-color: lightslategrey;
+    margin: 10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px black;
+    transition:.4s;
+    align-items: center;
+}
+.images>img{
+    width: 360px;
+    margin: 15px;
+    
+}
+#h4{
+    color: #111827;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#p{
+    color: #111827;
+    padding: 5px;
+}
+/* ----about-part------ */
+
+#bg-c{
+    background-color: lightblue;
+}
+.about{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.about-p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.center{
+    margin: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 10px;
+    gap: 150px;
+    justify-content: center;
+}
+.xubin{
+    background-color: lightseagreen;
+ border: 1px solid red;
+box-shadow: 0px 5px 15px black;
+
+
+}
+.xubin img{
+    width: 300px;
+    margin: 20px;
+    border-radius: 30px;
+}
+.xubin img ul,li{
+    /* color: white; */
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+/* ------services-part------- */
+
+.bg-s{
+    background-color: lightblue;
+}
+.service-h1{
+    margin-top: 7px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.service-h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.service-ul{
+    margin: 10px;
+}
+.service-p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+table{
+    background-color: #417;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+/* ------contact-part-------- */
+#contact-h1{
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+#contact-p{
+    font-size: 20px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-c{
+    background-color: lightblue;
+}
+
+.legend{color: blue;}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-color: #245;
+    font-size: 25px;
+    gap: 30px;
+    padding:12px;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+.button>button{
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.button>button:hover{
+    background-color: #a34304;
+    color: white;
+
+}
+.form{
+    margin: 10px;
+}
+
+/* ------help-part------- */
+.bg-h{
+    background-color: lightblue;
+}
+.help-h1{
+    text-align: center;
+    margin: 5px;
+    background-color: black;
+    color: white;
+
+}
+#help-h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 5px;
+
+
+}
+#help-p{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #116;
+}
+footer{
+    background-color: #a34304;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+
